@@ -1,0 +1,11 @@
+name: gPhotos2Immich
+version: "1.6.1"
+slug: gphotos2immich
+description: Sync Google Photos shared albums to Immich
+arch:
+  - amd64
+  - aarch64
+init: false
+host_network: true
+boot: auto
+startup: application
