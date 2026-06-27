@@ -1,15 +1,11 @@
 name: gPhotos2Immich
-version: "2026.06.27.2042"
+version: "2026.06.27.2028"
 slug: gphotos2immich
 description: Sync Google Photos shared albums to Immich
 arch:
   - amd64
   - aarch64
 init: false
+host_network: true
 boot: auto
 startup: application
-ingress: true
-ingress_port: 8099
-panel_icon: mdi:image-sync
-panel_title: Photo Sync
-panel_admin: false
